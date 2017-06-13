@@ -1,0 +1,35 @@
+{
+  "name": "pretendentas-nodejs",
+  "version": "1.0.0",
+  "description": "node.js base container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pretendentas/docker/tree/master/base"
+  },
+  "keywords": [
+    "nodejs",
+    "pretendentas",
+    "docker"
+  ],
+  "author": "Karolis Arbačiauskas",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.1"
+  }
+}
